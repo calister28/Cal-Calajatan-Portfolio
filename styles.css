@@ -331,3 +331,10 @@ button:hover {
     padding-top: 1rem;
   }
 }
+
+footer
+{
+  text-align: center;
+  font-size: 10px;
+  opacity: 50%;
+}
