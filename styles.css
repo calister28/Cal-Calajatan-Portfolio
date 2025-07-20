@@ -198,7 +198,7 @@ header::-webkit-scrollbar {
 
 .portfolio-nav-left a,
 .portfolio-nav-right a {
-  color: #ccc;
+  color: #ffce00;
   text-decoration: none;
   margin: 0 12px;
   font-size: 9px;
@@ -207,7 +207,7 @@ header::-webkit-scrollbar {
 
 .portfolio-nav-left a:hover,
 .portfolio-nav-right a:hover {
-  color: #fff;
+  color: #ffa700;
 }
 
 .logo {
@@ -242,6 +242,7 @@ header::-webkit-scrollbar {
 .portfolio-about-text {
   flex: 2;
   max-width: 600px;
+  margin-bottom: 20px;
 }
 
 .portfolio-about-text h2 {
@@ -251,7 +252,7 @@ header::-webkit-scrollbar {
 
 .portfolio-about-text p {
   color: #ccc;
-  font-size: 16px;
+  font-size: 10px;
   line-height: 1.6;
 }
 
@@ -300,8 +301,8 @@ textarea {
 }
 
 button {
-  background-color: white;
-  color: black;
+  background-color: #ffce00;
+  color: rgb(255, 255, 255);
   padding: 12px 20px;
   border: none;
   border-radius: 5px;
@@ -312,7 +313,7 @@ button {
 }
 
 button:hover {
-  background-color: rgb(29, 29, 29);
+  background-color: rgba(255, 166, 0, 0.925);
   color: white;
 }
 @media screen and (max-width: 768px) {
@@ -337,5 +338,97 @@ footer
   text-align: center;
   font-size: 10px;
   opacity: 50%;
-  margin:20px;
+  margin-bottom: 20px;
 }
+
+.portfolio-about-text .skills {
+  margin-top: 2rem;
+}
+
+.skills {
+  width: 100%;
+  margin-top: 2rem;
+}
+
+.skills h3 {
+  font-size: 1.2rem;
+  color: #ffffff;
+  margin-bottom: 1.5rem;
+  text-align: center
+}
+
+.skill {
+  margin-bottom: 1.2rem;
+}
+
+.skill span {
+  font-weight: 600;
+  margin-bottom: 0.4rem;
+  display: block;
+  color: #ccc;
+  font-size: 0.9rem;
+}
+
+.skill-bar {
+  width: 100%;
+  height: 20px;
+  background: #1f1f1f;
+  border-radius: 30px;
+  overflow: hidden;
+}
+
+.skill-fill {
+  height: 100%;
+  line-height: 20px;
+  padding-right: 10px;
+  font-size: 12px;
+  color: #fff;
+  text-align: right;
+  border-radius: 30px;
+  animation: fillAnimation 2s ease-out forwards;
+}
+
+/* Skill fill colors */
+.skill-fill.html {
+  width: 60%;
+  background: linear-gradient(to right, #ffce00, #ffce00);
+}
+
+.skill-fill.css {
+  width: 80%;
+  background: linear-gradient(to right, #ffce00, #ffce00);
+}
+
+.skill-fill.js {
+  width: 40%;
+  background: linear-gradient(to right, #ffce00, #ffce00);
+}
+
+.skill-fill.photoshop {
+  width: 90%;
+  background: linear-gradient(to right, #ffce00, #ffce00);
+}
+
+@keyframes fillAnimation {
+  from {
+    width: 0;
+  }
+}
+.go-back-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #ffffff;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 10px;
+  transition: background 0.3s ease;
+  color: black;
+  display: none;
+}
+
+.go-back-btn:hover {
+  background: #0e0e0e;
+  color: white;
+}
+

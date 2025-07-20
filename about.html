@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>About – Cal's Portfolio</title>
-
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
 
@@ -24,28 +24,54 @@
   </header>
 
   <main>
-    <section class="portfolio-about">
-      <div class="portfolio-about-image">
-        <img src="./img/Profile Pic/Profile Pic.jpg" alt="Nick Faucher">
-      </div>
+    <!-- About Section -->
+<section class="portfolio-about">
+  <div class="portfolio-about-image">
+    <img src="./img/Profile Pic/Profile Pic.jpg" alt="Nick Faucher">
+  </div>
 
-      <div class="portfolio-about-text">
-        <h2>About Me | I'm Cal :)</h2>
-        <hr>
-        <p>
-          Hey there! My name is Cal, and I’m a passionate Web Developer and Graphic Designer with over 5 years of experience. I specialize in creating visually engaging designs and building responsive, user-friendly websites that bring ideas to life.
-        </p>
-        <p>
-          Whether it's crafting a brand identity or coding interactive digital experiences, I’m driven by creativity, detail, and a love for design and technology.
-        </p>
-        <p>
-          Outside of work, I enjoy exploring photography, motion design, and the intersection of technology and creativity. <br>
-         <br>
-          
-          Welcome to my portfolio — feel free to browse and get in touch!
-        </p>
+  <div class="portfolio-about-text">
+    <h2 style="color: #ffce00;">Hey! I'm Cal</h2>
+    <hr>
+    <p>
+      Hey there! My name is Cal, and I’m a passionate Web Developer and Graphic Designer with over 5 years of experience. I specialize in creating visually engaging designs and building responsive, user-friendly websites that bring ideas to life.
+    </p>
+    <p>
+      Whether it's crafting a brand identity or coding interactive digital experiences, I’m driven by creativity, detail, and a love for design and technology.
+    </p>
+    <p>
+      Outside of work, I enjoy exploring photography, motion design, and the intersection of technology and creativity. <br><br>
+      Welcome to my portfolio — feel free to browse and get in touch!
+    </p>
+
+    <!-- Skills Section Moved Here -->
+    <section class="skills">
+      <h3>Skills</h3>
+      <div class="skill">
+        <span>Adobe Suite</span>
+        <div class="skill-bar"><div class="skill-fill photoshop">90%</div></div>
+      </div>
+      <div class="skill">
+        <span>HTML5</span>
+        <div class="skill-bar"><div class="skill-fill html">60%</div></div>
+      </div>
+      <div class="skill">
+        <span>CSS3</span>
+        <div class="skill-bar"><div class="skill-fill css">80%</div></div>
+      </div>
+      <div class="skill">
+        <span>JavaScript</span>
+        <div class="skill-bar"><div class="skill-fill js">40%</div></div>
       </div>
     </section>
+  </div>
+</section>
+
+
+    <!-- Go Back Button -->
+    <div style="text-align: center; margin: 2rem;">
+      <a href="index.html" class="go-back-btn">← Go Back to Home</a>
+    </div>
   </main>
 
   <button class="back-to-top" onclick="window.scrollTo({top: 0, behavior: 'smooth'})">&#8679;</button>
