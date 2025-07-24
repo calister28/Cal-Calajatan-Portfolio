@@ -44,6 +44,7 @@ main {
   font-size: 2rem;
   margin: 3rem 0;
   animation: bounce 2s infinite;
+  color: #ffce00;
 }
 
 @keyframes bounce {
@@ -242,7 +243,7 @@ header::-webkit-scrollbar {
 .portfolio-about-text {
   flex: 2;
   max-width: 600px;
-  margin-bottom: 20px;
+  margin-bottom: -50px;
 }
 
 .portfolio-about-text h2 {
@@ -346,8 +347,8 @@ footer
 }
 
 .skills {
-  width: 100%;
-  margin-top: 2rem;
+  width: 70%;
+  margin: 2rem auto 0 auto;
 }
 
 .skills h3 {
@@ -430,5 +431,58 @@ footer
 .go-back-btn:hover {
   background: #0e0e0e;
   color: white;
+}
+
+.skills-icons {
+  width: 80%;
+  margin: 3rem auto;
+  font-family: 'Inter', sans-serif;
+}
+
+.skill-category {
+  margin-bottom: 1rem;
+}
+
+.skill-category h3 {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  color:  #ffce00;
+  border-left: 4px solid #ffce00;
+  padding-left: 10px;
+  text-align: left;
+}
+
+.skill-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 0;
+  margin: 0;
+}
+
+.skill-list li {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: #ffffff;
+  border: 1px solid #e0e0e0;
+  padding: 0.35rem 1.2rem;
+  border-radius: 12px;
+  font-size: 0.55rem;
+  color: #333;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  transition: all 0.2s ease-in-out;
+}
+
+.skill-list li i {
+  font-size: 1.2rem;
+  color: #ffce00;
+  min-width: 20px;
+}
+
+.skill-list li:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.1);
 }
 
