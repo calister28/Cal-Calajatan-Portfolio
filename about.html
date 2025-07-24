@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>About – Cal's Portfolio</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
 
@@ -25,28 +26,78 @@
 
   <main>
     <!-- About Section -->
-<section class="portfolio-about">
-  <div class="portfolio-about-image">
-    <img src="./img/Profile Pic/Profile Pic.jpg" alt="Nick Faucher">
+    <section class="portfolio-about">
+      <div class="portfolio-about-image">
+        <img src="./img/Profile Pic/Profile Pic.jpg" alt="Nick Faucher">
+      </div>
+
+      <div class="portfolio-about-text">
+        <h2 style="color: #ffce00;">Hey! I'm Cal</h2>
+        <hr>
+        <p>
+          Hey there! My name is Cal, and I’m a passionate Web Developer and Graphic Designer with over 5 years of experience. I specialize in creating visually engaging designs and building responsive, user-friendly websites that bring ideas to life.
+        </p>
+        <p>
+          Whether it's crafting a brand identity or coding interactive digital experiences, I’m driven by creativity, detail, and a love for design and technology.
+        </p>
+        <p>
+          Outside of work, I enjoy exploring photography, motion design, and the intersection of technology and creativity. <br><br>
+          Welcome to my portfolio — feel free to browse and get in touch!
+        </p>
+  <section class="skills-icons">
+  <div class="skill-category">
+    <h3>Adobe Suite</h3>
+    <ul class="skill-list">
+      <li><i class="fas fa-image"></i> Photoshop</li>
+      <li><i class="fas fa-vector-square"></i> Illustrator</li>
+      <li><i class="fas fa-film"></i> After Effects</li>
+      <li><i class="fas fa-photo-video"></i> Premiere Pro</li>
+       <li><i class="fas fa-book-open"></i> InDesign</li>
+    <li><i class="fas fa-cube"></i> Dimension</li>
+    </ul>
   </div>
 
-  <div class="portfolio-about-text">
-    <h2 style="color: #ffce00;">Hey! I'm Cal</h2>
-    <hr>
-    <p>
-      Hey there! My name is Cal, and I’m a passionate Web Developer and Graphic Designer with over 5 years of experience. I specialize in creating visually engaging designs and building responsive, user-friendly websites that bring ideas to life.
-    </p>
-    <p>
-      Whether it's crafting a brand identity or coding interactive digital experiences, I’m driven by creativity, detail, and a love for design and technology.
-    </p>
-    <p>
-      Outside of work, I enjoy exploring photography, motion design, and the intersection of technology and creativity. <br><br>
-      Welcome to my portfolio — feel free to browse and get in touch!
-    </p>
+  <div class="skill-category">
+    <h3>Web</h3>
+    <ul class="skill-list">
+      <li><i class="fab fa-html5"></i> HTML5</li>
+      <li><i class="fab fa-css3-alt"></i> CSS3</li>
+      <li><i class="fab fa-js"></i> JavaScript</li>
+      <li><i class="fab fa-react"></i> React</li>
+     
+   
+    </ul>
+  </div>
 
-    <!-- Skills Section Moved Here -->
-    <section class="skills">
-      <h3>Skills</h3>
+   <div class="skill-category">
+    <h3>Productivity</h3>
+    <ul class="skill-list">
+      <li><i class="fas fa-envelope"></i> Mailchimp</li>
+      <li><i class="fas fa-tasks"></i> Asana</li>
+      <li><i class="fab fa-wordpress"></i> WordPress</li>
+      <li><i class="fab fa-shopify"></i> Shopify</li>
+      <li><i class="fas fa-bullhorn"></i> Klaviyo</li>
+      <li><i class="fab fa-slack"></i> Slack</li>
+      <li><i class="fas fa-columns"></i> Trello</li>
+    </ul>
+  </div>
+</section>
+      </div>
+      
+    </section>
+
+    <!-- Icon-based Skills List -->
+
+
+    <!-- Skill Progress Bars (DO NOT TOUCH) -->
+ 
+
+    <!-- Go Back Button -->
+    <div style="text-align: center; margin: 2rem;">
+      <a href="index.html" class="go-back-btn">← Go Back to Home</a>
+    </div>
+       <section class="skills">
+      <h3>Skill Proficiency</h3>
       <div class="skill">
         <span>Adobe Suite</span>
         <div class="skill-bar"><div class="skill-fill photoshop">90%</div></div>
@@ -64,16 +115,9 @@
         <div class="skill-bar"><div class="skill-fill js">40%</div></div>
       </div>
     </section>
-  </div>
-</section>
-
-
-    <!-- Go Back Button -->
-    <div style="text-align: center; margin: 2rem;">
-      <a href="index.html" class="go-back-btn">← Go Back to Home</a>
-    </div>
   </main>
 
+  <!-- Back to Top Button -->
   <button class="back-to-top" onclick="window.scrollTo({top: 0, behavior: 'smooth'})">&#8679;</button>
 </body>
 </html>
