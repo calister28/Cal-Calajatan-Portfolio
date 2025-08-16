@@ -526,4 +526,26 @@ footer
     height: 300px;
   }
 }
+.link-categories
+{
+  text-align: center;
+}
 
+ .social-icons {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+    display: inline-flex;
+    gap: 15px;
+    
+  }
+  .social-icons li a {
+    display: inline-flex;
+    font-size: 20px;
+    color: #ffce00;
+    transition: color 0.3s;
+   
+  }
+  .social-icons li a:hover {
+    color: #ff9900; /* You can set different hover colors per icon if you want */
+  }
